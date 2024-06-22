@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #091428;
+  margin: 0;
+  font-family: sans-serif;
+  color: #C89B3C;
+}
+
+.players-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team {
+  flex: 1;
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+}
+
+.champion-img {
+  width: 50px; 
+  height: auto;
+  margin-right: 10px;
+}
+
+.table-container {
+  display: flex;
+  color: black;
+}
+
+.first-table{
+  flex: 1;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.last-table {
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+}
+
+.winner {
+  background-color: lightblue;
+}
+
+.loser {
+  background-color: lightcoral;
+}
